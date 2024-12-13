@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="./rejster.css" />
+  </head>
+  <body>
+    <div class="BackGroundImge">
+      <div class="register-container">
+        <h2>Register</h2>
+        <form id="registerForm">
+          <label for="name">Name:</label>
+          <div class="input-container">
+            <input type="text" id="name" name="name" required />
+            <span class="valid-icon" id="nameValid">✔</span>
+          </div>
+
+          <label for="email">Email:</label>
+          <div class="input-container">
+            <input type="email" id="email" name="email" required />
+            <span class="valid-icon" id="emailValid">✔</span>
+          </div>
+
+          <label for="password">Password:</label>
+          <div class="input-container">
+            <input type="password" id="password" name="password" required />
+            <span class="valid-icon" id="passwordValid">✔</span>
+          </div>
+
+          <label for="confirmPassword">Confirm Password:</label>
+          <div class="input-container">
+            <input
+              type="password"
+              id="confirmPassword"
+              name="confirmPassword"
+              required
+            />
+            <span class="valid-icon" id="confirmPasswordValid">✔</span>
+          </div>
+
+          <button type="submit">Register</button>
+        </form>
+        <p id="error-message"></p>
+      </div>
+    </div>
+    <script src="./rejster.js"></script>
+  </body>
+</html>

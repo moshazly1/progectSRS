@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rental Listings</title>
+    <link rel="stylesheet" href="two.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- قسم الخريطة -->
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3453.8156045492015!2d31.242104427724062!3d30.042147563282345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDAyJzMxLjciTiAzMcKwMTQnMTUuMCJF!5e0!3m2!1sar!2seg!4v1734058649454!5m2!1sar!2seg"
+          width="100%"
+          height="100%"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+
+      <!-- قسم القائمة الجانبية -->
+      <div class="listings">
+        <!-- شريط البحث -->
+        <header>
+          <input
+            type="text"
+            placeholder="Address, neighborhood, city, ZIP"
+            id="search-bar"
+          />
+        </header>
+
+        <!-- العنوان -->
+        <div class="header">
+          <div class="filters">
+            <button id="for-sale-btn">For Sale</button>
+            <button id="price-btn">Price</button>
+            <button id="beds-btn">Beds & Baths</button>
+            <button id="type-btn">Home Type</button>
+            <button id="more-btn">More</button>
+          </div>
+          <h2>Rental Listings</h2>
+          <p>532,540 rentals available</p>
+        </div>
+
+        <!-- العقارات -->
+        <div class="listing-item">
+          <img src="./Imge/two1PNG.PNG" alt="Apartment Image" />
+          <div class="info">
+            <span class="tag">1 day ago</span>
+            <p class="price">$1,445/mo</p>
+            <p>1 bd | 1 ba | 715 sqft - Apartment for rent</p>
+            <p>Naylor Overlook, 2633-2645 Naylor Rd SE</p>
+          </div>
+        </div>
+        <div class="listing-item">
+          <img src="./Imge/two2.PNG" alt="Apartment Image" />
+          <div class="info">
+            <span class="tag">1 day ago</span>
+            <p class="price">$1,445/mo</p>
+            <p>1 bd | 1 ba | 715 sqft - Apartment for rent</p>
+            <p>Naylor Overlook, 2633-2645 Naylor Rd SE</p>
+          </div>
+        </div>
+        <div class="listing-item">
+          <img src="./Imge/two3.PNG" alt="Apartment Image" />
+          <div class="info">
+            <span class="tag">1 day ago</span>
+            <p class="price">$1,445/mo</p>
+            <p>1 bd | 1 ba | 715 sqft - Apartment for rent</p>
+            <p>Naylor Overlook, 2633-2645 Naylor Rd SE</p>
+          </div>
+        </div>
+
+        <div class="listing-item special-offer">
+          <img src="./Imge/two4.PNG" alt="Apartment Image" />
+          <div class="info">
+            <span class="tag special">Special Offer</span>
+            <p class="price">$1,008+ 1 bd</p>
+            <p>Williamsburg Mishawaka | 302 Village Dr</p>
+            <div class="price-options">
+              <span>$1,008+ 1 bd</span>
+              <span>$1,137+ 2 bd</span>
+              <span>$1,882+ 3 bd</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-item special-offer">
+          <img src="./Imge/two5.PNG" alt="Apartment Image" />
+          <div class="info">
+            <span class="tag special">Special Offer</span>
+            <p class="price">$1,008+ 1 bd</p>
+            <p>Williamsburg Mishawaka | 302 Village Dr</p>
+            <div class="price-options">
+              <span>$1,008+ 1 bd</span>
+              <span>$1,137+ 2 bd</span>
+              <span>$1,882+ 3 bd</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing-item special-offer">
+          <img src="./Imge/two6.PNG" alt="Apartment Image" />
+          <div class="info">
+            <span class="tag special">Special Offer</span>
+            <p class="price">$1,008+ 1 bd</p>
+            <p>Williamsburg Mishawaka | 302 Village Dr</p>
+            <div class="price-options">
+              <span>$1,008+ 1 bd</span>
+              <span>$1,137+ 2 bd</span>
+              <span>$1,882+ 3 bd</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="two.js"></script>
+  </body>
+</html>
